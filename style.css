@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
+body {
+    background: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.sidebar {
+  flex: 1;
+}
+.main {
+  flex: 2;
+}
+
+
+.bday {
+    position: relative;
+    margin: 30px 0;
+    box-shadow: 3px 1px 6px 1px #cfcfcf;
+}
+.bouncy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+form .bouncy label {
+    
+    display: inline-block;
+}
+.bouncy p {
+    color: #656565;
+    margin: 0;
+    font-size: 16px;
+}
+.bouncy h4 {
+    padding: 40px 20px;
+    font-size: 24px;
+    margin: 0; 
+}
+#pckg-total .bouncy h4::before {
+    background-color: #3dceb1;
+    clip-path: polygon(0% 0%, 75% 0%, 75% 50%, 75% 100%, 0% 100%);
+}
+#pckg-total h4.total span {
+    color: #fff;
+}
+.bouncy h4::before {
+    content: '';
+    height: 100%;
+    width: 20%;
+    background-color: #c8e7ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+#bouncy-one h4::before, #bouncy-five h4::before, #pckg-two h4::before {
+    background-color: #c8e7ff;
+}
+#bouncy-two h4::before, #bouncy-six h4::before, #pckg-three h4::before {
+    background-color: #d9f4bf;
+}
+#bouncy-three h4::before, #pckg-one h4::before, #pckg-four h4::before {
+    background-color: #fecdff;
+}
+#bouncy-four h4::before, #pckg-five h4::before {
+    background-color: #f9faab;
+}
+
+.bouncy h4 span {
+    position: relative;
+    z-index: 9;
+}
+.bouncy a {
+    font-size: 28px;
+    color: #000;
+    z-index: 999;
+    padding-right: 30px;
+    line-height: 0;
+    text-decoration: none;
+}
+.bouncy a::before {
+    content: '';
+    height: 100%;
+    width: 13%;
+    background-color: #00c69e;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bouncy a span {
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #fff;
+}
+
+form .bouncy  {
+    text-align: left;
+    color: #656565;
+}
+.standard ul {
+    width: 85%;
+    color: #656565;
+    text-align: left;
+}
+.submit a {
+    color: #fff;
+    background-color: #3dceb1;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 28px;
+    text-decoration: none;
+}
+.submit {
+    padding: 0;
+}
+h3#foor {
+    padding: 0;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 44px;
+    color: #000;
+    
+    width: 100%;
+}
+
+div#pckg-img img {
+    padding: 0px 10px;
+    width: 100%;
+}
+div#pckg-img {
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+    margin-top: 50px;
+}
+div#pckg-img::after {
+    background: none;
+}
+div#pckg-img::before {
+    background: none;
+}
+.standard ul li::before {
+    content: '';
+    position: absolute;
+    background-color: #656565;
+    width: 6px;
+    height: 6px;
+    left: -11px;
+    top: 6px;
+    border-radius: 25px;
+}
+.standard ul {
+    padding: 0;
+}
+.standard ul li {
+    list-style: none;
+    position: relative;
+    margin: 12px 0;
+}
+.customize {
+    padding: 0;
+    position: absolute;
+    left: 43%;
+    right: 0;
+    bottom: 5px;
+}
+.standard {
+    padding: 18px 0;
+}
+.customize label {
+    font-size: 20px;
+}
+.show-blk .bouncy {
+    text-align: left;
+    box-shadow: 3px 1px 6px 1px #cfcfcf;
+    padding: 30px 50px;
+}
+.show-blk {
+    width: 56%;
+    display: inline-block;
+}
